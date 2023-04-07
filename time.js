@@ -18,9 +18,6 @@ function timeConversion(s) {
     else if(hour == 12 && meridian == 'AM'){
         hour= '00'
     }
-    // else if(hour == 12 && meridian == 'AM'){
-    //     hour = '12'
-    // }
     
     let convertedTime = (`${hour}:${minutes}:${seconds}`)
     console.log(convertedTime)
